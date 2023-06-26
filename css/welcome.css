@@ -1,0 +1,55 @@
+
+.let{
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+    display: inline-block;
+    opacity: 0;
+    color:white;
+  }
+  .back
+  {
+    background-color: #22A7F0;
+    opacity:0;
+    width: 0px;
+    height: 100px;
+    display: inline-block;
+  }
+  #W{
+    left: 10px;
+  }
+  #E{
+    left: 130px;
+  }
+  #L{
+    left: 240px;
+  }
+  #C{
+    left: 335px;
+  }
+  #O{
+    left: 435px;
+  }
+  #M{
+    left: 535px;
+  }
+  #El{
+    left: 645px;
+  }
+  #H{
+    left: 645px;
+  }
+  #bigbg{
+    position: relative;
+    width:740px;
+    padding: 5px;
+    margin: 10px auto;
+    top:120px;
+  }
+  #button{
+    position: relative;
+    top: 170px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
