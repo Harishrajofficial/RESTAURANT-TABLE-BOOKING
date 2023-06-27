@@ -1,16 +1,13 @@
 <?php 
-// session_start();
-// if(!isset($_SESSION['usname'])){
-//   header("Location: register.php");
+session_start();
+if(!isset($_SESSION['usname'])){
+  header("Location: register.php");
  
-// }
-// session_destroy();
-
+}
+session_destroy();
 
 
 if (isset($_POST['logout'])) {
-    session_start();
-    session_destroy();
     header("Location: index.php");
 }
 
@@ -53,9 +50,7 @@ $HMP=$_POST["select"];
 
   if (empty($Yourname)) {
     $yournameErr = "Your name is required";
-    // header("location : 
   } 
-  
   elseif (empty($Youremail)) {
     $youremailErr = "Your email is required";
   } 
@@ -73,16 +68,8 @@ $HMP=$_POST["select"];
   $sql = "INSERT INTO `booking_data`(`YOURNAME`,`YOUREMAIL`,`DATE`,`TIME`,`HOW_MANY_PEOPLE?`)VALUES('$Yourname','$Youremail','$Date','$Time','$HMP');";
   $rs =mysqli_query($conn, $sql);
   header("Location: success.php");
-// echo "<script>alert('BOOKING SUCCESSFULLY');</script>";
-
-
   }
-
-
    }
-
-
-
 
  ?>
 
@@ -130,7 +117,6 @@ $HMP=$_POST["select"];
 </head>
 <body>
 
-
 <marquee class="tit"  style="color:black">BOOK YOUR TABLE NOW!!!</marquee>
     
 <div class="container">
@@ -143,9 +129,6 @@ $HMP=$_POST["select"];
 <h3 class="heading-days">Saturday and Sunday</h3>
 <p>9am - 1am (breakfast)</p>
 <p>1pm - 10pm (lunch/dinner)</p>
-
-<hr>
-
 <h4 class="heading-phone">Call Us: (123) 45-45-456</h4>
 
 </div>
@@ -171,8 +154,8 @@ $HMP=$_POST["select"];
 <div class="form-field">
 <p class="t">Time</p>
 <input type="time" name="time" required >
-
 </div>
+
 <div class="form-field">
 <p class="t">How many people?</p>
 <select name="select" id="#" required>
@@ -185,22 +168,13 @@ $HMP=$_POST["select"];
 
 </select>
 
-
 </div>
 
 <button class="btn" name="SUB">Submit</button>
 <button class="btn"><a href="register.php" class="log" name="logout">LOG OUT</button></a>
 
-
 </form>
-
-
-
-
-
 </div>
-
-
 </div>
 
 </body>

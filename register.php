@@ -90,10 +90,6 @@ echo "<script>alert('ACCOUNT CREATED SUCCESSFULLY');</script>";
    }
 
 
-
-
-
-
 // define variables and set to empty values
 
 $userError = $passwordError = "";
@@ -112,9 +108,7 @@ if (isset($_POST['sub'])) {
     }
     elseif(empty($pass)){
     $passwordError = "Please Enter Valid Password";
-    }
-     
-    
+    } 
     else{
         $sql="select UserName,Password FROM userdata WHERE UserName='$username' and Password='$pass'";
         $result=$conn->query($sql);
@@ -134,13 +128,9 @@ if (isset($_POST['sub'])) {
 
 ?>
 
-
-
-
   <body>
+  
   <div class="container" id="container">
-
-
 
       <div class="form-container sign-in-container">
         <form action="" method="post">

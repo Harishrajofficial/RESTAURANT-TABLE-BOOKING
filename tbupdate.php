@@ -87,8 +87,6 @@ if(isset($_POST['submit'])){
 <option value="5+">5+ persons</option>
 
 </select>
-
-
     </div>
 
 

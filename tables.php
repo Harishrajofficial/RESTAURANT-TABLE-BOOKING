@@ -73,10 +73,7 @@ if($result){
     }
 }
     
-
-
 ?>
-
 
   </tbody>
 </table>

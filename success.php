@@ -1,10 +1,7 @@
 <?php 
-session_start();
-if(!isset($_SESSION['usname'])){
-  header("Location: booking.php");
- 
+if (isset($_POST['ok'])) {
+  header("Location: index.php");
 }
-session_destroy();
 ?>
 
 
@@ -29,7 +26,8 @@ session_destroy();
   </div>
 </div>
   <div class="footer">
-  <a href="index.php" id="close">Ok</a>
+  <a href="index.php" id="close" name="ok" >Ok</a>
+
   </div>
 </div>
   </body>
