@@ -108,8 +108,7 @@ filter: blur(2px);
 
 /* reviews */
 .revtit{
-    /* background-color:red; */
-    /* width:100%; */
+    
     position: relative;
     top:30px;
     height:200px;
