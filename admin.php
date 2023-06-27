@@ -1,12 +1,8 @@
 <?php
 
-
-
 if (isset($_POST['sub'])) {
 $t1= $_POST['adminname'];
 $t2= $_POST['pass'];
-
-
 
 if(empty($t1) || empty($t2)){
   echo "<script>alert('FIELD REQUIRED')</script>";
@@ -15,7 +11,6 @@ if(empty($t1) || empty($t2)){
 else{
   if($t1=="Hut" && $t2==1601){
   header("Location: welcome.php");
-  // echo "<script>alert('WELCOME CHIEF')</script>";
   
 }
 else{
@@ -26,8 +21,6 @@ else{
 
 
 }
-
-
 
 
 ?>

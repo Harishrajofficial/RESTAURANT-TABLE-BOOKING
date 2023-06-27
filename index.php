@@ -158,11 +158,6 @@ filter: blur(2px);
 }
 
 
-
-/* social */
-
-
-
     </style>
   </head>
 
@@ -187,7 +182,6 @@ filter: blur(2px);
         
           <div class="mx-auto"></div> 
           <ul class="navbar-nav ">
-         <!-- <a href="admin.php"  class="nav-link " ><i class="fas fa-2x  fa-user-large" ></i></a> -->
             <li class="nav-item"><a href="#blog" class="nav-link text-white">Blog</a></li>
             <li class="nav-item"><a href="#Reviews" class="nav-link text-white">Reviews</a></li>
             <li class="nav-item"><a href="#contact" class="nav-link text-white">Contact Us</a></li>
@@ -330,18 +324,6 @@ filter: blur(2px);
           <div class=" text-center">
             <b><h4 class="title1">RESERVE YOUR TABLE <br> RIGHT NOW!!! </h4></b>
           </div>
-
-          <!-- <div class="info1 "  >
-            <input type="email"  class="t1 form-control form-control-lg " placeholder="EMAIL" >
-            <input type="number"  class="form-control form-control-lg " placeholder="NUMBER OF GUESTS" max="30" min="0">
-        </div>
-
-        <div class="info2 ">  
-
-            <input type="time"  class="form-control form-control-lg " placeholder="">
-            <input type="date" class="form-control form-control-lg " placeholder="12/12/12">
-        
-        </div> -->
 
         <div class=" text-center">
             <a class="btn2 btn-lg btn-primary" href="register.php">FIND TABLE</a>
@@ -506,7 +488,6 @@ filter: blur(2px);
         <div class="row">
             <div class=" col-md-6 px-0 border">
             <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15664.13630846736!2d76.96040269640064!3d11.036070176060834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s1st%20Street%2C%20Gandhipuram%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1687786554048!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231116.02846975354!2d55.108012928358264!3d25.163130994283595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6990b5496cd3%3A0x6808e2ac52b21a13!2sSisi&#39;s%20Eatery!5e0!3m2!1sen!2sin!4v1682068156598!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
             </div>
 
            
