@@ -1,3 +1,8 @@
+<?php 
+if (isset($_POST['go'])) {
+  header("Location: register.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -184,7 +189,7 @@ filter: blur(2px);
             <li class="nav-item"><a href="#blog" class="nav-link text-white">Blog</a></li>
             <li class="nav-item"><a href="#Reviews" class="nav-link text-white">Reviews</a></li>
             <li class="nav-item"><a href="#contact" class="nav-link text-white">Contact Us</a></li>
-            <li class="nav-item"><a href="register.php" class="nav-link text-white  btn-primary">LOGIN</a></li>
+            <li class="nav-item"><a href="register.php" class="nav-link text-white  btn-primary" >LOGIN</a></li>
          <a href="admin.php"  class="nav-link " ><i class="fas fa-1x  fa-user-large" ></i></a>
 
           </ul>
@@ -311,7 +316,7 @@ filter: blur(2px);
 
     <!-- book a table Section  -->
 
-
+<form action="" method="POST">
         <div >
 
         <div class="book-img w-100 vh-100" id="booktable">  </div>
@@ -325,10 +330,11 @@ filter: blur(2px);
           </div>
 
         <div class=" text-center">
-            <a class="btn2 btn-lg btn-primary" href="register.php">FIND TABLE</a>
+            <button class="btn2 btn-lg btn-primary"  name="go">FIND TABLE</button>
         </div>
 
 </div>
+</form>
   
 
     <!-- BLOG Section  -->
