@@ -128,7 +128,7 @@ if (isset($_POST['sub'])) {
 		</style>
   </head>
 
- <body>
+<body>
   
   <div class="container" id="container">
 
