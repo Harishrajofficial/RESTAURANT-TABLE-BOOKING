@@ -1,3 +1,9 @@
+<?php 
+if (isset($_POST['button'])) {
+  header("Location: tables.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +20,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <body>
+<form action="" method="POST">
   <div id="bigbg">
       <div id="bg1" class="back"></div><span id="W" class="let">W</span>
       <div id="bg2" class="back"></div><span id="E" class="let">E</span>
@@ -23,7 +30,11 @@
       <div id="bg6" class="back"></div><span id="M" class="let">M</span>
       <div id="bg7" class="back"></div><span id="El" class="let">E</span>
     </div>
-    <a href="tables.php"><div id="button"><button type="button"  class="btn btn-info btn-lg" name="button">CHIEF</button><div></a>
+    
+    <div id="button">
+    <button   class="btn btn-info btn-lg" name="button" >CHIEF</button>
+        </div>
+    </form>
 </body>
 <script>
     var x=document.getElementsByClassName('back');

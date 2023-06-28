@@ -131,7 +131,7 @@ filter: blur(2px);
 }
 .rev{
     position: relative;
-    top:3020px;
+    top:3000px;
 }
 
 /* contact us */
